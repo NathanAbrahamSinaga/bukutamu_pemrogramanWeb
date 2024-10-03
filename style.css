@@ -1,0 +1,80 @@
+/* style.css */
+body {
+    background: #e0f7fa; /* Warna latar belakang hijau muda */
+    background: -moz-radial-gradient(center, ellipse cover, #e0f7fa 0%, #a5d6a7 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #e0f7fa 0%, #a5d6a7 100%);
+    background: radial-gradient(ellipse at center, #e0f7fa 0%, #a5d6a7 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size : 20px;
+}
+
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form {
+    background: rgba(165, 214, 167, 0.8); /* Hijau muda dengan transparansi */
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 20px #ffffff;
+}
+
+.element-input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input {
+    padding: 10px;
+}
+
+.button-login, .button-logout {
+    width: 50%;
+    padding: 10px;
+    background: rgba(255,255,255, 0.7);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.button-login:hover, .button-logout:hover {
+    background: #ffffff;
+}
+
+.notifikasi {
+    padding: 10px;
+    background: rgba(244, 66, 119, 0.5); /* Anda bisa mengganti warna ini jika diinginkan */
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.entry {
+    background: rgba(255,255,255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    color: red;
+}
+
+a {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
